@@ -1,5 +1,6 @@
 # Video comparison between TLD and PLN
-Python code to make a video comparison 
+Python code to make a video comparison of a Traditioan Lane Detector (TLD) 
+and a Deep Learning Lane Detector (PLN).
 # Requirements
 * **Python**
 * **OpenCV**
@@ -44,8 +45,9 @@ PLN_TLD_Comparison
 └── MixVideoLaneDetection.py
 ```
 # Get Started
-To visualize the 
+To visualize a comparison of the outputs of TLD and PLN from a given video input,
+you may add the video to the "videos" folder and modify line 7 to add the path to the 
+video. Then run the python code:
 ```shell
-git clone https://github.com/Ign-Es/PLN_TLD_Comparison.git
-cd PLN_TLD_Comparison
+python MixVideoLaneDetection.py
 ```

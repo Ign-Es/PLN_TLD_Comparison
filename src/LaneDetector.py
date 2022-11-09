@@ -2,8 +2,7 @@ import cv2
 import numpy as np
 import tensorflow as tf
 import tensorflow.keras
-from tensorflow.python.compiler.tensorrt import trt_convert_windows
-#from tensorflow.python.compiler.tensorrt import trt_convert as trt
+
 LANE_COLORS = [(0,0,255),(0,255,0),(255,255,0),(0,255,255)]
 TUSIMPLE_ROW_ANCHOR = [ 64,  68,  72,  76,  80,  84,  88,  92,  96, 100, 104, 108, 112,
             116, 120, 124, 128, 132, 136, 140, 144, 148, 152, 156, 160, 164,
